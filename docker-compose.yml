@@ -2,6 +2,12 @@ version:'3'
 sevices:
     node:
       image:'node'
-      volumes
+      volumes:
+        -./src:/node
+      ports:
+        -80:8000
+        -80:80
+        -8080:80
+      working_dir: /node
       entrypoint:'npm install'
       command:'node index.js'
