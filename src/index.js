@@ -1,1 +1,1 @@
-require('mainpage.js');
+require('./mainpage.js');
