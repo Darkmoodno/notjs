@@ -1,0 +1,7 @@
+version:'3'
+sevices:
+    node:
+      image:'node'
+      volumes
+      entrypoint:'npm install'
+      command:'node index.js'
