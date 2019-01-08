@@ -6,6 +6,6 @@ services:
       - ./src:/node
       - ./src/log:/root/.npm
     ports:
-      - 80:3000
+      - 80:80
     working_dir: /node
-    command: node HW.js
+    command: node index.js
